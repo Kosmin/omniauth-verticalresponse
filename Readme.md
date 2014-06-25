@@ -1,6 +1,6 @@
 # Omniauth::Verticalresponse
 
-TODO: Write a gem description
+OAuth2 Strategy for Omniauth. This allows the omniauth gem to connect to verticalresponse.
 
 ## Installation
 

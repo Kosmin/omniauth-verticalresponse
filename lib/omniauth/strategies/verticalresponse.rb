@@ -10,6 +10,11 @@ module OmniAuth
           token_url:      'api/v1/oauth/access_token'
       }
       option :provider_ignores_state, true
+  
+      uid do
+        access_token.params['user_id']
+      end
+
     end
   end
 end
